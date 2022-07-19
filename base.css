@@ -1,0 +1,45 @@
+/* CUSTOM PROPERTIES */
+
+:root{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:62.5%;
+}
+
+
+/* MARGINS AND PADDINGS */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+img, picture, video, iframe, figure{
+    max-width:100%;
+    width:100%;
+    display:block;
+    object-fit: cover;
+    object-position: center center;
+}
+
+
+/* LINKS RESETS */
+
+a{
+    display:inline-block;
+    text-decoration: none;  
+    color:inherit;
+}
+
+/* LIST RESETS */
+
+li{
+    list-style:none;
+}
+ /* SVG RESET */
+
+svg{
+    width:100%;
+    display:block;
+}
+
