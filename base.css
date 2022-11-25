@@ -23,6 +23,7 @@ body{
 
 img, picture, video, iframe, figure{
     max-width:100%;
+    height:auto;
     display:block;
     object-fit: cover;
     object-position: center center;
